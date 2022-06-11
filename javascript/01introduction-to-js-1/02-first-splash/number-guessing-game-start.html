@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>猜数字游戏</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+      .lastResult {
+        color: red;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>猜数字游戏</h1>
+
+    <p>我刚才随机选定了一个100以内的自然数。看你能否在 10 次以内猜中它。每次我都会告诉你所猜的结果是高了还是低了。</p>
+
+    <div class="form">
+      <label for="guessField">请猜数：</label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="我猜" class="guessSubmit">
+    </div>
+
+      <!-- 分别对应：上次猜的数，数值，高还是低 -->
+    <div class="resultParas">
+      <p class="guessShow"></p> 
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+      let randnum = Math.floor(Math.random()*100)+1;
+      let count = 1;
+      let bt;
+    
+      const guessShow = document.querySelector('.guessShow');
+      const lastResult = document.querySelector('.lastResult');
+      const lowOrHi = document.querySelector('.lowOrHi');
+      const guessSubmit = document.querySelector('.guessSubmit');
+      const guessField = document.querySelector('.guessField');
+      
+
+      function checkGuess(){
+        let userGuess = Number(guessField.value);
+        if(count===1){
+          guessShow.textContent = '上次猜的数字：';
+        }
+        guessShow.textContent += userGuess + ' ';
+
+        if(userGuess===randnum){
+          lastResult.textContent = '恭喜你，答对了！'
+          setGameOver();
+        } else if(count===10){
+          lastResult.textContent = '!!Game Over!!'
+          setGameOver();
+        } else{
+          lastResult.textContent = '你猜错了哦';
+          if(userGuess<randnum){
+            lowOrHi.textContent = '你猜低了哦';
+          }else{
+            lowOrHi.textContent = '你猜高了哦';
+          }
+        }
+        count++;
+        guessField.vaule = '';
+        guessField.focus();
+      }
+
+      guessSubmit.addEventListener('click', checkGuess);
+
+      function setGameOver(){
+        guessField.disabled = true;
+        guessSubmit.disabled = true;
+        bt = document.createElement('button');
+        bt.textContent = '开始新游戏吧';
+        document.body.appendChild(bt);
+        bt.addEventListener('click', resetGame);
+      }
+
+      function resetGame(){
+        guessField.disabled = false;
+        guessSubmit.disabled = false;
+        guessField.value = '';
+        guessField.focus();
+        randnum = Math.floor(Math.random()*100)+1;
+        count = 1;
+
+        const resetParas = document.querySelectorAll('p.resultParas')
+        for(let i=0;i<resetParas.length;i++){
+          resetParas[i].textContent = '';
+        }
+        bt.parentNode.removeChild(bt);
+
+      }
+
+    </script>
+  </body>
+</html>

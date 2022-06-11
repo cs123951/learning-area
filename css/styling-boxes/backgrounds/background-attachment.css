@@ -34,10 +34,7 @@ article {
   flex: 1;
   height: 400px;
   background-color: rgba(0,0,0,0.5);
-  background-image: url(emoji.png);
-  background-size: 400px 400px;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-image: url(bgtile.png);
   padding: 1%;
   overflow: auto;
 }

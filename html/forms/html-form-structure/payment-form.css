@@ -62,3 +62,9 @@ button {
 label {
   position: relative;
 }
+
+label em {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}

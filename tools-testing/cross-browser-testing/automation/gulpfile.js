@@ -4,38 +4,32 @@ const autoprefixer = require('gulp-autoprefixer');
 const csslint = require('gulp-csslint');
 const babel = require('gulp-babel');
 const jshint = require('gulp-jshint');
-const { series } = require('gulp');
 
-function html(cb) {
+gulp.task('default', ['html', 'css', 'js']);
+
+gulp.task('html', function() {
   return gulp.src('src/index.html')
         .pipe(htmltidy())
         .pipe(gulp.dest('build'));
-    cb();
-}
+});
 
-function css(cb) {
+gulp.task('css', function() {
     return gulp.src('src/style.css')
         .pipe(csslint())
         .pipe(csslint.formatter('compact'))
         .pipe(autoprefixer({
+            browsers: ['last 5 versions'],
             cascade: false
         }))
         .pipe(gulp.dest('build'));
-    cb();
-}
+});
 
-function js(cb) {
+gulp.task('js', function() {
     return gulp.src('src/main.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(babel({
-            presets: ['@babel/env']
+            presets: ['es2015']
         }))
         .pipe(gulp.dest('build'));
-        cb();
-}
-
-exports.html = html;
-exports.css = css;
-exports.js = js;
-exports.default = series(html, css, js);
+});

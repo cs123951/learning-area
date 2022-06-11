@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping list example</title>
     <style>
       li {
@@ -10,7 +9,7 @@
       }
 
       li button {
-        font-size: 12px;
+        font-size: 8px;
         margin-left: 20px;
         color: #666;
       }
@@ -35,8 +34,8 @@
       const input = document.querySelector('input');
       const button = document.querySelector('button');
 
-      button.addEventListener('click', () => {
-        const myItem = input.value;
+      button.onclick = function() {
+        let myItem = input.value;
         input.value = '';
 
         const listItem = document.createElement('li');
@@ -49,12 +48,12 @@
         listBtn.textContent = 'Delete';
         list.appendChild(listItem);
 
-        listBtn.addEventListener('click', () => {
+        listBtn.onclick = function(e) {
           list.removeChild(listItem);
-        });
+        }
 
         input.focus();
-      });
+      }
     </script>
   </body>
 </html>

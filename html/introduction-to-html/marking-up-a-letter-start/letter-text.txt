@@ -1,63 +1,48 @@
-Dr. Eleanor Gaye
-Awesome Science faculty
-University of Awesome
-Bobtown, CA 99999,
-USA
-Tel: 123-456-7890
-Email: no_reply@example.com
+中国北京市门头沟区，102300
+纽臂大学 纽臂科学院
+李雷 教授
+联系电话：123-456-7890
+电子邮件：no_reply@example.com
 
-20 January 2016
+2019 年 2 月 22 日
 
-Miss Eileen Dover
-4321 Cliff Top Edge
-Dover, CT9 XXX
-UK
+韩梅梅 女士
+中国海南省三亚市亚龙湾
 
+回复：韩梅梅学位申请
+亲爱的韩同学：
 
-Re: Eileen Dover university application
+感谢你申请纽臂大学科学院的哲学博士学位课程，下面我将就你的问题依次做出解答。
 
-Dear Eileen,
+开学日期
+欢迎你在任意时间来校学习，但在学期开始时来校更理想，每学期开学时间如下：
 
-Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.
+第一学期：2019 年 9 月 9 日
+第二学期：2020 年 1 月 15 日
+第三学期：2020 年 5 月 2 日
+请告诉我你是否愿意在学期开始时来校，并告知你选择的学期。
 
-Starting dates
+你可以在我们的网站上找到更多关于 学校重要日期 的信息。
 
-We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:
+学习科目
+纽臂科学院本着兼容并蓄的原则，课题涉及一些科技领域。欢迎有才智、态度专注的研究人员参加，也欢迎符合我们价值观的朋友加入。我们最感兴趣的课题如下（按优先度排序）：
 
-First semester: 9 September 2016
-Second semester: 15 January 2017
-Third semester: 2 May 2017
+把水（H2O）转变为酒的方法，以及白藜芦醇（C14H12O3）对健康的帮助作用。
+测量室温 30°C（86°F）时，观众人数呈指数级增加对放克贝斯手表演的影响（3 × 103 > 3 × 104 效应）。
+使用 HTML 和 CSS 构建乐谱。
+请针对上述课题提供更多的信息。包括研究时长、所需资源，以及其它未尽事宜，谢谢。
 
-Please let me know if this is ok, and if so which start date you would prefer.
+异域舞蹈
+你说的没错！异域部落舞蹈是我博士后研究项目的一部分。为了回答你的问题，我在下面列出我个人最喜欢的舞蹈种类和相关介绍：
 
-You can find more information about important university dates on our website.
+波利尼西亚小鸡舞
+一种古老、神秘但影响广泛的舞蹈，可追溯至公元前 300 年，整个村庄围绕着一个小鸡形状的圈跳舞，祈祷牲畜肥美。
+冰岛布尔曳步舞
+在冰岛人学会用火取暖之前，他们之间流行着这种舞蹈，舞蹈时人们在地上拥成一个圈，用极小极快的动作晃动身体。我有一个学生说冰岛曳步舞是现代甩臀舞的鼻祖。
+北极机器人舞
+一个有趣的历史误传，二十世纪六十年代的英国探险者宣称发现了一种像“机器人跳舞”的舞蹈，这种舞蹈动作僵硬，流行于加拿大和阿拉斯加北部地区。后来人们发现这里的居民是因为天气太冷了才做出这样的动作。
+更多信息请查看我的 异域舞蹈研究 网页。
 
+李雷 教授
 
-Subjects of study
-
-At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:
-
-Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.)
-Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.)
-HTML and CSS constructs for representing musical scores.
-
-So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.
-
-
-Exotic dance moves
-
-Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:
-
-Polynesian chicken dance
-A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".
-Icelandic brownian shuffle
-Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.
-Arctic robot dance
-An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
-
-For more of my research, see my exotic dance research page.
-
-Yours sincerely,
-Dr Eleanor Gaye
-
-University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, Esq
+纽臂大学校训：人人皆可纽臂 —— 诸葛中天传
